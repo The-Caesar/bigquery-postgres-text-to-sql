@@ -154,11 +154,7 @@ export const sqlAgent = new Agent({
     Do NOT stop after generating SQL. Always execute it to provide the actual data.
 
     Always prioritize user safety, data security, and clear communication throughout the interaction.`,
-<<<<<<< HEAD:src/mastra/agents/sql-agent.ts
-  model: openai('gpt-4.1-mini'),
-=======
   model: openai("gpt-4.1-mini"),
->>>>>>> bigquery-agent:src/mastra/agents/postgres-sql-agent.ts
   tools: {
     databaseIntrospectionTool,
     databaseSeedingTool,
