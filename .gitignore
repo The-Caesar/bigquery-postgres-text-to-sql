@@ -7,3 +7,5 @@ dist
 *.db
 *.db-*
 service-account.json
+*.cer
+*.pem
